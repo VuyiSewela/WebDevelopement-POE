@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="See how ordering works and send an order enquiry to Ous Ma'mikis WhatsApp Café.">
+  <meta name="author" content="Vuyelwa Sewela">
+  <meta name="theme-color" content="#426b48">
+  <meta property="og:title" content="Order Enquiry | Ous Ma'mikis WhatsApp Café">
+  <meta property="og:description" content="See how ordering works and send an order enquiry to Ous Ma'mikis WhatsApp Café.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Order Enquiry | Ous Ma'mikis WhatsApp Café</title>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="topbar">Fresh meals • Easy ordering • WhatsApp friendly</div>
+<!-- Global site header and primary navigation -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Ous Ma'mikis home">
+      <img src="assets/logo.svg" alt="" width="46" height="46">
+      <span>Ous Ma'mikis <small>WhatsApp Café</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰ <span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="order.html" aria-current="page" class="active">Order</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="references.html">References</a></nav>
+  </div>
+</header>
+<!-- Main page content -->
+<main id="main-content">
+
+<section class="page-hero"><div class="container"><p class="eyebrow">Order process</p><h1>Four simple steps from menu to meal.</h1><p>The website complements the café's WhatsApp workflow and creates a clearer path for customers.</p></div></section>
+<section class="section"><div class="container steps"><article><span>1</span><h2>Browse</h2><p>View the current menu, prices and meal photographs.</p></article><article><span>2</span><h2>Choose</h2><p>Select meals and quantities, or submit the enquiry form below.</p></article><article><span>3</span><h2>Confirm</h2><p>The café confirms availability, collection/delivery arrangements and final payment details.</p></article><article><span>4</span><h2>Receive</h2><p>The customer collects the order or receives it according to the confirmed arrangement.</p></article></div></section>
+<!-- Netlify-ready order enquiry form with client-side validation in js/script.js. -->
+<section class="section section-tint"><div class="container form-layout"><div><p class="eyebrow">Enquiry form</p><h2>Send an order enquiry</h2><p>This form is configured for Netlify Forms in the final project. It records an enquiry; it does not process card payments.</p></div><form class="form-card validate-form" name="order-enquiry" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you.html" novalidate><input type="hidden" name="form-name" value="order-enquiry"><p class="honeypot"><label>Do not fill this out: <input name="bot-field"></label></p><div class="field"><label for="order-name">Full name *</label><input id="order-name" name="name" type="text" required autocomplete="name"><small class="error" aria-live="polite"></small></div><div class="field"><label for="order-phone">Mobile number *</label><input id="order-phone" name="phone" type="tel" required autocomplete="tel" pattern="[0-9 +()-]{9,18}"><small class="error" aria-live="polite"></small></div><div class="field"><label for="order-meal">Meal or order request *</label><textarea id="order-meal" name="order" rows="4" required></textarea><small class="error" aria-live="polite"></small></div><div class="field"><label for="fulfilment">Preferred method</label><select id="fulfilment" name="fulfilment"><option>Collection</option><option>Delivery enquiry</option></select></div><div class="field"><label for="order-notes">Additional notes</label><textarea id="order-notes" name="notes" rows="3"></textarea></div><button class="btn btn-primary" type="submit">Submit enquiry</button><p class="form-status" role="status" aria-live="polite"></p></form></div></section>
+</main>
+<!-- Shared footer with project disclosure and reference link -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand brand-footer" href="index.html"><img src="assets/logo.svg" alt="" width="42" height="42"><span>Ous Ma'mikis <small>WhatsApp Café</small></span></a><p>Convenient prepared meals for nearby office staff and the local community.</p></div>
+    <div><h2 class="footer-heading">Quick links</h2><p><a href="menu.html">Menu</a><br><a href="order.html">Order</a><br><a href="contact.html">Contact</a></p></div>
+    <div><h2 class="footer-heading">Project note</h2><p>Student prototype for WEDE5020. Sample prices and contact details must be confirmed before live business use.</p></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Ous Ma'mikis WhatsApp Café.</span><a href="references.html">Sources & image credits</a></div>
+</footer>
+<!-- External JavaScript progressively enhances navigation, forms and interactive features. -->
+<script src="js/script.js" defer></script>
+</body>
+</html>

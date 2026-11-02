@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse sample South African meals, prices and menu categories for Ous Ma'mikis WhatsApp Café.">
+  <meta name="author" content="Vuyelwa Sewela">
+  <meta name="theme-color" content="#426b48">
+  <meta property="og:title" content="Menu | Ous Ma'mikis WhatsApp Café">
+  <meta property="og:description" content="Browse sample South African meals, prices and menu categories for Ous Ma'mikis WhatsApp Café.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Menu | Ous Ma'mikis WhatsApp Café</title>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="topbar">Fresh meals • Easy ordering • WhatsApp friendly</div>
+<!-- Global site header and primary navigation -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Ous Ma'mikis home">
+      <img src="assets/logo.svg" alt="" width="46" height="46">
+      <span>Ous Ma'mikis <small>WhatsApp Café</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰ <span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="menu.html" aria-current="page" class="active">Menu</a><a href="about.html">About</a><a href="order.html">Order</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="references.html">References</a></nav>
+  </div>
+</header>
+<!-- Main page content -->
+<main id="main-content">
+
+<section class="page-hero"><div class="container"><p class="eyebrow">Sample menu</p><h1>Meals for a busy workday.</h1><p>Prices and menu items are prototype content and can be replaced with the café's confirmed daily menu.</p></div></section>
+<section class="section"><div class="container">
+  <div class="menu-tools" aria-label="Menu tools"><label for="menu-search">Search menu</label><input id="menu-search" type="search" placeholder="Search by meal name"><div class="filters" role="group" aria-label="Filter menu"><button type="button" class="filter-btn active" data-filter="all">All</button><button type="button" class="filter-btn" data-filter="main">Main meals</button><button type="button" class="filter-btn" data-filter="light">Light meals</button><button type="button" class="filter-btn" data-filter="drink">Drinks</button></div></div>
+  <p id="menu-results" class="results-note" aria-live="polite"></p>
+  <div class="card-grid menu-grid"><article class="food-card menu-item" data-category="main" data-name="bobotie"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bobotie%20South%20Africa.jpg" alt="Bobotie" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><div><p class="tag">Traditional</p><div class="title-row"><h2>Bobotie</h2><strong>R65.00</strong></div><p>A classic South African baked minced-meat dish with a savoury egg topping.</p><button class="btn add-to-cart" type="button" data-name="Bobotie" data-price="65">Add to order</button></div></article><article class="food-card menu-item" data-category="main" data-name="boerewors roll"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boerewors%20braai.jpg" alt="Boerewors Roll" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><div><p class="tag">Braai favourite</p><div class="title-row"><h2>Boerewors Roll</h2><strong>R70.00</strong></div><p>Boerewors served as a filling lunch option.</p><button class="btn add-to-cart" type="button" data-name="Boerewors Roll" data-price="70">Add to order</button></div></article><article class="food-card menu-item" data-category="main" data-name="chakalaka plate"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chakalaka.jpg" alt="Chakalaka Plate" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><div><p class="tag">Spicy</p><div class="title-row"><h2>Chakalaka Plate</h2><strong>R60.00</strong></div><p>A spicy vegetable relish served as part of a filling plate.</p><button class="btn add-to-cart" type="button" data-name="Chakalaka Plate" data-price="60">Add to order</button></div></article><article class="food-card menu-item" data-category="light" data-name="vetkoek & mince"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vetkoek.jpg" alt="Vetkoek & Mince" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><div><p class="tag">Local bite</p><div class="title-row"><h2>Vetkoek & Mince</h2><strong>R55.00</strong></div><p>Golden vetkoek with a savoury mince filling.</p><button class="btn add-to-cart" type="button" data-name="Vetkoek & Mince" data-price="55">Add to order</button></div></article><article class="food-card menu-item" data-category="light" data-name="bunny chow"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bunny%20Chow.jpg" alt="Bunny Chow" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><div><p class="tag">Durban favourite</p><div class="title-row"><h2>Bunny Chow</h2><strong>R45.00</strong></div><p>Bread filled with curry for a quick and satisfying meal.</p><button class="btn add-to-cart" type="button" data-name="Bunny Chow" data-price="45">Add to order</button></div></article><article class="food-card menu-item" data-category="drink" data-name="rooibos tea"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rooibos%20tea%20in%20a%20glass%20with%20dry%20rooibos.jpg" alt="Rooibos tea in a glass" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><div><p class="tag">Chilled</p><div class="title-row"><h2>Rooibos Tea</h2><strong>R18.00</strong></div><p>A refreshing rooibos tea to enjoy with lunch.</p><button class="btn add-to-cart" type="button" data-name="Rooibos Tea" data-price="18">Add to order</button></div></article></div>
+</div></section>
+<section class="section section-tint"><div class="container two-col"><div><h2>Ready to order?</h2><p>Add sample items to the order drawer or complete the enquiry form. The WhatsApp button uses a demo number until the real café number is supplied.</p><a class="btn btn-primary" href="order.html">Order enquiry form</a></div><div class="notice"><strong>Important:</strong> This is a student prototype. No live card payment is processed.</div></div></section>
+<!-- Part 3 order drawer: JavaScript updates quantities, totals and WhatsApp order text. -->
+<div class="cart-overlay" id="cart-overlay" aria-hidden="true"><aside class="cart-panel" aria-label="Order cart"><div class="cart-head"><h2>Your order</h2><button type="button" class="icon-btn" id="close-cart" aria-label="Close order cart">×</button></div><div id="cart-items"></div><div class="cart-total"><span>Total</span><strong id="cart-total">R0.00</strong></div><label for="cart-name">Name</label><input id="cart-name" type="text" autocomplete="name"><label for="cart-phone">Mobile number</label><input id="cart-phone" type="tel" autocomplete="tel"><label for="cart-notes">Notes</label><textarea id="cart-notes" rows="3" placeholder="e.g. no chilli"></textarea><button class="btn whatsapp-btn" type="button" id="whatsapp-cart">Send order to WhatsApp</button></aside></div>
+<button type="button" class="floating-cart" id="open-cart" aria-label="Open order cart">🛒 <span id="cart-count">0</span></button>
+</main>
+<!-- Shared footer with project disclosure and reference link -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand brand-footer" href="index.html"><img src="assets/logo.svg" alt="" width="42" height="42"><span>Ous Ma'mikis <small>WhatsApp Café</small></span></a><p>Convenient prepared meals for nearby office staff and the local community.</p></div>
+    <div><h2 class="footer-heading">Quick links</h2><p><a href="menu.html">Menu</a><br><a href="order.html">Order</a><br><a href="contact.html">Contact</a></p></div>
+    <div><h2 class="footer-heading">Project note</h2><p>Student prototype for WEDE5020. Sample prices and contact details must be confirmed before live business use.</p></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Ous Ma'mikis WhatsApp Café.</span><a href="references.html">Sources & image credits</a></div>
+</footer>
+<!-- External JavaScript progressively enhances navigation, forms and interactive features. -->
+<script src="js/script.js" defer></script>
+</body>
+</html>

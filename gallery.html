@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View food inspiration used in the Ous Ma'mikis WhatsApp Café student prototype.">
+  <meta name="author" content="Vuyelwa Sewela">
+  <meta name="theme-color" content="#426b48">
+  <meta property="og:title" content="Gallery | Ous Ma'mikis WhatsApp Café">
+  <meta property="og:description" content="View food inspiration used in the Ous Ma'mikis WhatsApp Café student prototype.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Gallery | Ous Ma'mikis WhatsApp Café</title>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="topbar">Fresh meals • Easy ordering • WhatsApp friendly</div>
+<!-- Global site header and primary navigation -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Ous Ma'mikis home">
+      <img src="assets/logo.svg" alt="" width="46" height="46">
+      <span>Ous Ma'mikis <small>WhatsApp Café</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰ <span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="order.html">Order</a><a href="gallery.html" aria-current="page" class="active">Gallery</a><a href="contact.html">Contact</a><a href="references.html">References</a></nav>
+  </div>
+</header>
+<!-- Main page content -->
+<main id="main-content">
+
+<section class="page-hero"><div class="container"><p class="eyebrow">Gallery</p><h1>Food inspiration for the prototype.</h1><p>These Creative Commons images are illustrative. A production site should replace them with photographs of the café's actual meals where possible.</p></div></section>
+<!-- Gallery buttons supply image and caption data to the keyboard-accessible lightbox. -->
+<section class="section"><div class="container gallery-grid"><button class="gallery-item" type="button" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Boerewors%20braai.jpg" data-alt="Boerewors on a braai"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boerewors%20braai.jpg" alt="Boerewors on a braai" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><span>Braai inspiration</span></button><button class="gallery-item" type="button" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Bobotie%20South%20Africa.jpg" data-alt="Bobotie meal"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bobotie%20South%20Africa.jpg" alt="Bobotie meal" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><span>Bobotie</span></button><button class="gallery-item" type="button" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Chakalaka.jpg" data-alt="Chakalaka relish"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chakalaka.jpg" alt="Chakalaka relish" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><span>Chakalaka</span></button><button class="gallery-item" type="button" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Vetkoek.jpg" data-alt="Vetkoek meal"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vetkoek.jpg" alt="Vetkoek meal" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><span>Vetkoek</span></button><button class="gallery-item" type="button" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Bunny%20Chow.jpg" data-alt="Bunny chow"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bunny%20Chow.jpg" alt="Bunny chow" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><span>Bunny chow</span></button><button class="gallery-item" type="button" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Rooibos%20tea%20in%20a%20glass%20with%20dry%20rooibos.jpg" data-alt="Rooibos tea in a glass"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rooibos%20tea%20in%20a%20glass%20with%20dry%20rooibos.jpg" alt="Rooibos tea in a glass" loading="lazy" onerror="this.onerror=null;this.src='assets/food-placeholder.svg'"><span>Rooibos tea</span></button></div></section>
+<!-- Lightbox dialog is hidden by default and controlled in js/script.js. -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image preview"><button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image preview">×</button><img id="lightbox-image" alt=""><p id="lightbox-caption"></p></div>
+</main>
+<!-- Shared footer with project disclosure and reference link -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand brand-footer" href="index.html"><img src="assets/logo.svg" alt="" width="42" height="42"><span>Ous Ma'mikis <small>WhatsApp Café</small></span></a><p>Convenient prepared meals for nearby office staff and the local community.</p></div>
+    <div><h2 class="footer-heading">Quick links</h2><p><a href="menu.html">Menu</a><br><a href="order.html">Order</a><br><a href="contact.html">Contact</a></p></div>
+    <div><h2 class="footer-heading">Project note</h2><p>Student prototype for WEDE5020. Sample prices and contact details must be confirmed before live business use.</p></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Ous Ma'mikis WhatsApp Café.</span><a href="references.html">Sources & image credits</a></div>
+</footer>
+<!-- External JavaScript progressively enhances navigation, forms and interactive features. -->
+<script src="js/script.js" defer></script>
+</body>
+</html>
