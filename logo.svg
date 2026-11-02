@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Ous Ma'mikis WhatsApp Café logo</title>
+  <desc id="desc">Rounded square containing the letters OM and a small steam symbol.</desc>
+  <rect width="128" height="128" rx="28" fill="#d7612f"/>
+  <path d="M37 37c5-11 15-11 20 0M68 33c4-8 12-8 16 0" fill="none" stroke="#fff4e8" stroke-width="6" stroke-linecap="round"/>
+  <text x="64" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="white">OM</text>
+</svg>
